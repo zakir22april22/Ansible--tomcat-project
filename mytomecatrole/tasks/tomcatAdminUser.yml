@@ -12,4 +12,4 @@
 - name: copy tomcat host context xml file into nodes
   template:
        src: templates/tomhostcontext.j2
-       sest: /opt/tomcat/webapps/host-manager/META-INF/context.xml
+       dest: /opt/tomcat/webapps/host-manager/META-INF/context.xml
