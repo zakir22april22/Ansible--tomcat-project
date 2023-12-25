@@ -3,4 +3,4 @@
   command: sudo chown -R tomcat:tomcat /opt/tomcat/
 
 - name: make excute access on bin folder
-  command: cd /opt && sudo chown -R tomcat tomcat/ 
+  command: sudo chown -R tomcat:tomcat catalina.out && sudo chown -R tomcat:tomcat catalina_copy.out  
