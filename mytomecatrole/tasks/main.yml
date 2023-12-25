@@ -1,2 +1,5 @@
 ---
 # tasks file for mytomecatrole
+
+- include_tasks: myadduser.yml
+- include_tasks: installjava.yml
