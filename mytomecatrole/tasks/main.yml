@@ -8,3 +8,5 @@
 - include_tasks: tomcatAdminUser.yml
 - include_tasks: tomcatservice.yml
 - include_tasks: tomcatstart.yml
+- include_tasks: myjavadeploy.yaml
+- include_tasks: tomcatrestart.yaml
